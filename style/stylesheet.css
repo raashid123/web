@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    width: 40%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+header, footer {
+    background-color: #080202;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #e8e6e6;
+    text-decoration: none;
+}
+
+b {
+    color: #0a0909;
+    text-decoration: none;
+}
+
+a:hover,
+b:hover {
+    color: #111b8dc0;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Additional Styles */
+h1 {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for Navbar and Search Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090808;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #ddd;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type=text] {
+    padding: 10px 40px;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #ccc;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #f1eeee;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #111b8dc0;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+/* Styles for About section */
+.about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/* Styles for Overview section */
+.overview {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.overview ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.overview ul li {
+    margin-bottom: 10px;
+}
+/* Styles for Why Choose Us section */
+.choose-us {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.choose-us ul li {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #3d11cdc8;
+}

@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #080202;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fdfcfc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #111b8dc0;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center the services */
+}
+
+/* Additional Styles */
+h1 {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for Services */
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block; /* Display sections in a row */
+    margin: 10px; /* Add space between sections */
+    text-align: left; /* Align text to the left */
+    vertical-align: top; /* Align sections vertically */
+    width: calc(33.33% - 20px); /* Adjust width for three services in a row */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+}
+
+section a {
+    color: #007bff;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    width: 40%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+/* Styles for Navbar and Search Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090808;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #ddd;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type=text] {
+    padding: 10px 40px;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #ccc;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #f1eeee;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #111b8dc0;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
